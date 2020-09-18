@@ -22,7 +22,29 @@ function Home(){
                     </div>
                     <img src="" alt="Food" />
                 </div>
+                <div className="section-principal-options">
+                    <div className="principal-options-images">
+                        <div className="featured">
+                            <img src="" alt="About the food" />
+                        </div>
+                        <div className="featured">
+                            <img src="" alt="About the food" />
+                        </div>
+                    </div>
+                    <div className="principal-options-text">
+                        <h3>Nós temos deliciosas comidas típicas e caseiras</h3>
+                        <p>Experiente os pratos especialmente preparados para você.</p>
+                    </div>
+                </div>
+                <div className="section-about-app">
+                    <div className="app-images">
+                        
+                    </div>
+                </div>
             </main>
+            <footer>
+
+            </footer>
         </div>
     )
 }
