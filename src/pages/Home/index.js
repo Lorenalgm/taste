@@ -1,4 +1,7 @@
 import React from 'react'
+import image1 from '../../assets/image1.png';
+import image2 from '../../assets/image2.png';
+import image4 from '../../assets/image4.png';
 
 function Home(){
     return(
@@ -20,15 +23,15 @@ function Home(){
                             <div className="option">z</div>
                         </div>
                     </div>
-                    <img src="" alt="Food" />
+                    <img src={image4} alt="Food" />
                 </div>
                 <div className="section-principal-options">
                     <div className="principal-options-images">
                         <div className="featured">
-                            <img src="" alt="About the food" />
+                            <img src={image1} alt="About the food" />
                         </div>
                         <div className="featured">
-                            <img src="" alt="About the food" />
+                            <img src={image2} alt="About the food" />
                         </div>
                     </div>
                     <div className="principal-options-text">
