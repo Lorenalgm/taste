@@ -1,6 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 10rem;
+}
+
+.car{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-plus{
+    font-size: 25px;
+}
+
 .section-hero{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 10rem;
+}
+
+.hero-content h1{
+    font-size: 42px;
+}
+
+.see-menu{
+    background-color: black;
+    color: white;
+    padding: 1rem 5rem;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    margin: 2rem 0;
+}
+
+.food-options{
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+}
+
+.option{
+    background: rgb(209, 205, 205);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -3,6 +3,7 @@ import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image2.png';
 import image4 from '../../assets/image4.png';
 import './style.css';
+import { FaCartPlus } from 'react-icons/fa';
 
 function Home(){
     return(
@@ -10,13 +11,14 @@ function Home(){
             <header>
                 <h1>Taste</h1>
                 <div className="car">
+                    <FaCartPlus className="cart-plus" />
                 </div>
             </header>
             <main>
                 <div className="section-hero">
                     <div className="hero-content">
                         <h1>Comidas deliciosas estão esperando por você</h1>
-                        <a href="#">Ver menu</a>
+                        <a className="see-menu" href="#">Ver menu</a>
 
                         <div className="food-options">
                             <div className="option">x</div>
