@@ -128,3 +128,20 @@ header{
     bottom: -1rem;
     right: 1rem;
 }
+
+.section-plate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.image1{
+    width: 30em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 10rem;
+}

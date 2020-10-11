@@ -2,8 +2,9 @@ import React from 'react'
 import image4 from '../../assets/image4.png';
 import image2 from '../../assets/image2.png';
 import image3 from '../../assets/plate-vegan.png';
+import image1 from '../../assets/image1.png';
 import './style.css';
-import { FaCartPlus, FaBeer, FaPizzaSlice, FaHamburger, FaBirthdayCake, FaHeart } from 'react-icons/fa';
+import { FaCartPlus, FaBeer, FaPizzaSlice, FaHamburger, FaBirthdayCake } from 'react-icons/fa';
 
 function Home(){
     return(
@@ -18,7 +19,7 @@ function Home(){
                 <div className="section-hero">
                     <div className="hero-content">
                         <h1>Comidas deliciosas estão esperando por você</h1>
-                        <a className="see-menu" href="#">Ver menu</a>
+                        <a className="see-menu" href="https://github.com/Lorenalgm">Ver menu</a>
 
                         <div className="food-options">                            
                             <div className="option"><FaHamburger className="option-icon" /></div>
@@ -59,14 +60,44 @@ function Home(){
                         <p>Experiente os pratos especialmente preparados com todo carinho e qualidade para você.</p>
                     </div>
                 </div>
-                <div className="section-about-app">
-                    <div className="app-images">
-                        
+                <div className="section-plate">
+                    <div className="plate-content">
+                        <h1>XXXXXXX</h1>
+                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                     </div>
+                    <img className="image1" src={image1} alt="About the food" />
+                </div>
+                <div className="section-reserve">
+                    <div className="reservation-content">
+                        <p>Fale conosco</p>
+                        <h1>Gostaria de fazer uma reserva?</h1>
+                    </div>
+                    <a href="https://github.com/Lorenalgm" className="reserve-now">Reservar agora</a>
                 </div>
             </main>
             <footer>
-
+                <div className="title">
+                    <h1>Taste</h1>
+                </div>
+                <div className="services">
+                    <h1>Nossos serviços</h1>
+                    <p>Preços</p>
+                    <p>Acompanhamento</p>
+                    <p>Reporte um problema</p>
+                    <p>Termo de serviços</p>
+                </div>
+                <div className="company">
+                    <h1>Nossa empresa</h1>
+                    <p>Entre em contato</p>
+                    <p>Equipe</p>
+                </div>
+                <div className="address">
+                    <h1>Contato</h1>
+                    <p>Av. FAB, 345 - Centro</p>
+                    <p>@taste</p>
+                    <p>(96)91232-1234</p>
+                    <p>contato@taste.com</p>
+                </div>
             </footer>
         </div>
     )
