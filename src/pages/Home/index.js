@@ -62,8 +62,8 @@ function Home(){
                 </div>
                 <div className="section-plate">
                     <div className="plate-content">
-                        <h1>XXXXXXX</h1>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                        <h1>Sabor e qualidade!</h1>
+                        <p>Escolhemos os melhores ingredientes, com altíssima qualidade para oferecer a melhor refeição para você!</p>
                     </div>
                     <img className="image1" src={image1} alt="About the food" />
                 </div>
@@ -72,32 +72,34 @@ function Home(){
                         <p>Fale conosco</p>
                         <h1>Gostaria de fazer uma reserva?</h1>
                     </div>
-                    <a href="https://github.com/Lorenalgm" className="reserve-now">Reservar agora</a>
+                    <a href="https://github.com/Lorenalgm" className="see-menu reserve-now">Reservar agora</a>
                 </div>
             </main>
             <footer>
+               <div className="footer-content">
                 <div className="title">
-                    <h1>Taste</h1>
-                </div>
-                <div className="services">
-                    <h1>Nossos serviços</h1>
-                    <p>Preços</p>
-                    <p>Acompanhamento</p>
-                    <p>Reporte um problema</p>
-                    <p>Termo de serviços</p>
-                </div>
-                <div className="company">
-                    <h1>Nossa empresa</h1>
-                    <p>Entre em contato</p>
-                    <p>Equipe</p>
-                </div>
-                <div className="address">
-                    <h1>Contato</h1>
-                    <p>Av. FAB, 345 - Centro</p>
-                    <p>@taste</p>
-                    <p>(96)91232-1234</p>
-                    <p>contato@taste.com</p>
-                </div>
+                        <h1>Taste</h1>
+                    </div>
+                    <div className="services">
+                        <h2>Nossos serviços</h2>
+                        <p>Preços</p>
+                        <p>Acompanhamento</p>
+                        <p>Reporte um problema</p>
+                        <p>Termo de serviços</p>
+                    </div>
+                    <div className="company">
+                        <h2>Nossa empresa</h2>
+                        <p>Entre em contato</p>
+                        <p>Equipe</p>
+                    </div>
+                    <div className="address">
+                        <h2>Contato</h2>
+                        <p>Av. FAB, 345 - Centro</p>
+                        <p>@taste</p>
+                        <p>(96)91232-1234</p>
+                        <p>contato@taste.com</p>
+                    </div>
+               </div>
             </footer>
         </div>
     )

@@ -63,7 +63,12 @@ header{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.3s ease-out;
     box-shadow: 4px 4px 10px rgb(175, 173, 173);
+}
+
+.option:hover{
+    transform: translateY(-10px)
 }
 
 .option-icon{
@@ -117,6 +122,10 @@ header{
     margin-bottom: 1rem;
 }
 
+.principal-options-text p{
+    line-height: 1.5rem;
+}
+
 .featured-description{
     position: relative;
     margin-top: 5.5rem;
@@ -134,14 +143,37 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 10rem;
+    line-height: 1.5rem;
 }
 
 .image1{
     width: 30em;
 }
 
-footer{
+.plate-content h1{
+    margin-bottom: 1rem;
+}
+
+.section-reserve{
     display: flex;
     justify-content: space-between;
-    margin: 3rem 10rem;
+    margin: 5rem 10rem;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    margin: 0 10rem;
+    padding: 3rem 0;
+    line-height: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content h2{
+    margin-bottom: .4rem;
 }
